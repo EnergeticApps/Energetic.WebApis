@@ -51,7 +51,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Energetic.Persistence\Energetic.Persistence.csproj" />
-		<ProjectReference Include="..\Energetic.Services\Energetic.Services.csproj" />
 		<ProjectReference Include="..\Energetic.WebApis.Contracts\Energetic.WebApis.Contracts.csproj" />
 		<ProjectReference Include="..\Energetic.WebApis.Extensions\Energetic.WebApis.Extensions.csproj" />
 	</ItemGroup>
