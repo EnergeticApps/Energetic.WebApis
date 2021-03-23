@@ -28,6 +28,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Energetic.WebApis.Contracts" Version="0.0.1-alpha" />
+		<PackageReference Include="Energetic.WebApis.Extensions" Version="0.0.1-alpha" />
 		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="9.5.2" />
 		<PackageReference Include="Hellang.Middleware.ProblemDetails" Version="5.1.1" />
 		<PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
@@ -47,13 +49,6 @@
 		<PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
 		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.0.4" />
 		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.0.4" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\Energetic.Persistence\Energetic.Persistence.csproj" />
-		<ProjectReference Include="..\Energetic.ValueObjects\Energetic.ValueObjects.csproj" />
-		<ProjectReference Include="..\Energetic.WebApis.Contracts\Energetic.WebApis.Contracts.csproj" />
-		<ProjectReference Include="..\Energetic.WebApis.Extensions\Energetic.WebApis.Extensions.csproj" />
 	</ItemGroup>
 
 
