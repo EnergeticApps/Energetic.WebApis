@@ -3,7 +3,10 @@ using Energetic.WebApis.ActionResults;
 
 namespace Energetic.WebApis
 {
-    public class ControllerBase : Microsoft.AspNetCore.Mvc.ControllerBase
+    [ApiController]
+    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion=1.0}/[controller]")]
+    public class ApiController : Controller
     {
         /// <summary>
         /// Creates an <see cref="Energetic.WebApis.ActionResults.InternalServerErrorResult" /> that produces
