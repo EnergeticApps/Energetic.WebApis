@@ -21,6 +21,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Security\PermissionsAuthorizationFilter.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<None Include="icon.png" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
@@ -54,6 +58,10 @@
 	  <ProjectReference Include="..\Energetic.Security\Energetic.Security.csproj" />
 	  <ProjectReference Include="..\Energetic.WebApis.Contracts\Energetic.WebApis.Contracts.csproj" />
 	  <ProjectReference Include="..\Energetic.WebApis.Extensions\Energetic.WebApis.Extensions.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Security\" />
 	</ItemGroup>
 
 
