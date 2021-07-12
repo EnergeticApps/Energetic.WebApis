@@ -5,7 +5,6 @@ using System.Security.Claims;
 
 namespace Energetic.WebApis
 {
-    // TODO: Move this to an appropriate assembly and namespace within the Energetic libaries
     public class WebApiCurrentUserAccessor : ICurrentUserAccessor
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
